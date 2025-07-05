@@ -1,7 +1,13 @@
-#picture2 {
-    width: 40%;
-    height: auto;
-}
-.content1 {
+h2 {
     text-align: center;
+}
+.img-grid {
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;*/
+}
+
+.img2 {
+    flex-shrink: 5;
 }
