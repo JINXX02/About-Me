@@ -30,7 +30,7 @@ nav a {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 nav a:hover {
     background-color: #98c3fc;
@@ -38,8 +38,10 @@ nav a:hover {
 
 h1 {
     text-align: center;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     background: #6499E9;
+    color: white;
 }
 
 hr {
@@ -61,6 +63,7 @@ hr {
     font-size: 40px;
     margin-left: 35%;
     margin-right: 35%;
+    color: white;
 }
 
 .job {
@@ -71,12 +74,15 @@ hr {
 
 .bio {
     font-size: 25px;
+    margin-top: 5%;
 }
 
 .paragraph {
     text-align: center;
     font-size: 23px;
     margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 img {
@@ -106,6 +112,7 @@ html {
 form {
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 8%;
 }
 
 footer {
@@ -116,3 +123,6 @@ footer {
     padding: 3%;
     margin-top: 20%;
 }
+
+/*Below is CSS code for Contact Form*/
+

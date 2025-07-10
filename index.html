@@ -1,272 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>About Me Page</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <body>
-    <nav>
-      <ul class="sidebar">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <title>About Me Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="./images.jpeg" class="rounded-circle img-fluid" alt="Image" />
+      </div>
+      <div class="col-sm-8">
+        <h1>Yanitzia Rubi Camacho-Lopez</h1>
+        <p class="bio"> Hello, I'm Yanitzia! I am a U.S Navy veteran with a passion for technology and a drive to keep 
+          learning and growing. After serving my country, I’m now focused on building a career in the tech industry. I 
+          enjoy exploring new technologies, solving problems, and continuously pushing myself to develop new skills.</p>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <section id="about">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-4">
-          <img
-            src="./images.jpeg"
-            class="rounded-circle img-fluid"
-            alt="Image"
-          />
+        <div class="col-sm-6">
+          <h2 class="center heading">About</h2>
+          <p class="paragraph">In my free time, I love spending time with my pets—my green cheek conure, Paco, 
+            and my dog, Nito. Bonding with them is one of my favorite ways to relax and recharge. 
+            I’m also a foodie who enjoys exploring different cuisines and trying dishes from cultures 
+            all around the world. Currently, I’m a student at City College of San Francisco, working 
+            toward an associate degree in Computer Science as I continue to grow my skills and prepare 
+            for a future in the tech industry.</p>
+          <!--Start of Dropdown-->
+          <!--
+          <div class="accordion accordion-flush" id="accordionFlushExample" style="margin-top: 6%">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Where I'm from?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">FROM OAKLAND, CA!!!!</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Hobbies
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Things I love to do</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Personal Goals
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Goals, Passions, Aspirations</div>
+              </div>
+            </div>
+          </div>
+        End of Dropdown-->
+        
         </div>
-        <div class="col-sm-8">
-          <h1>Yanitzia Rubi Camacho-Lopez</h1>
-          <p class="bio">Hello, write bio here!</p>
+        <!--Start of Carousel-->
+        <div class="col-sm-6" style="margin-top: 5%; margin-bottom: 5%">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./pets.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./oaklandfox.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="./ccsf.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--End of Carousel-->
+      </div>
+    </div>
+  </section>
+  <hr />
+  <section id="experience">
+    <h2 class="center heading">Experience</h2>
+    <h3 class="center job">U.S. NAVY</h3>
+    <!--Img Grid-->
+    <div class="grid-container">
+      <div class="row g-0">
+        <div class="col-sm-4">
+          <img src="./pic1.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <img src="./pic4.JPG" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <img src="./pic7.JPG" alt="Image" />
+        </div>
+      </div>
+      <div class="row g-0">
+        <div class="col-sm-4">
+          <img src="./pic9.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <img src="./pic10.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <img src="./pic5.jpg" alt="Image" />
+        </div>
+      </div>
+      <div class="row g-0">
+        <div class="col-sm-4">
+          <img src="./pic11.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <img src="./pic2.JPG" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <img src="./pic8.JPG" alt="Image" />
         </div>
       </div>
     </div>
-    <hr />
-    <section id="about">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2 class="center heading">About</h2>
-            <!--Start of Dropdown-->
-            <div
-              class="accordion accordion-flush"
-              id="accordionFlushExample"
-              style="margin-top: 6%"
-            >
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseOne"
-                  >
-                    Where I'm from?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseOne"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">FROM OAKLAND, CA!!!!</div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
-                  >
-                    Hobbies
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTwo"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">Things I love to do</div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
-                  >
-                    Personal Goals
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">Goals, Passions, Aspirations</div>
-                </div>
-              </div>
-            </div>
-            <!--End of Dropdown-->
-          </div>
-          <!--Start of Carousel-->
-          <div class="col-sm-6" style="margin-top: 5%; margin-bottom: 5%">
-            <div
-              id="carouselExampleControls"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./pets.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                  <img src="./oaklandfox.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                  <img src="./ccsf.jpg" class="d-block w-100" alt="..." />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <!--End of Carousel-->
-        </div>
-      </div>
-    </section>
-    <hr />
-    <section id="experience">
-      <h2 class="center heading">Experience</h2>
-      <h3 class="center job">U.S. NAVY</h3>
-      <!--Img Grid-->
-      <div class="grid-container">
-        <div class="row g-0">
-          <div class="col-sm-4">
-            <img src="./pic1.jpg" alt="Image" />
-          </div>
-          <div class="col-sm-4">
-            <img src="./pic4.JPG" alt="Image" />
-          </div>
-          <div class="col-sm-4">
-            <img src="./pic7.JPG" alt="Image" />
-          </div>
-        </div>
-        <div class="row g-0">
-          <div class="col-sm-4">
-            <img src="./pic9.jpg" alt="Image" />
-          </div>
-          <div class="col-sm-4">
-            <img src="./pic10.jpg" alt="Image" />
-          </div>
-          <div class="col-sm-4">
-            <img src="./pic5.jpg" alt="Image" />
-          </div>
-        </div>
-        <div class="row g-0">
-          <div class="col-sm-4">
-            <img src="./pic11.jpg" alt="Image" />
-          </div>
-          <div class="col-sm-4">
-            <img src="./pic2.JPG" alt="Image" />
-          </div>
-          <div class="col-sm-4">
-            <img src="./pic8.JPG" alt="Image" />
-          </div>
-        </div>
-      </div>
-      <!--End of Grid-->
-      <p class="paragraph">Summary</p>
+    <!--End of Grid-->
+    <p class="paragraph">From October 2020 to October 2023, I served in the U.S. Navy as a PACT Seaman, gaining hands-on experience in ship maintenance, operations, and team coordination. 
+      I was responsible for preserving the ship’s exterior and interior spaces, assisting with small boat operations, and operating equipment such as JLG lifts. I stood critical watches both underway and in port, 
+      contributed to damage control and emergency response efforts, and played a key role in transferring supplies at sea. My time in the Navy strengthened my ability to work under pressure, 
+      solve problems, and collaborate effectively with a team.</p>
 
-      <h3 class="center job" style="margin-top: 10%">SAP Concur</h3>
-      <!--Img Grid 2-->
-      <div class="grid-container">
-        <div class="row g-0">
-          <div class="col">
-            <img src="./sap1.jpg" alt="Image" />
-          </div>
-          <div class="col">
-            <img src="./sapLogo.png" alt="Image" />
-          </div>
-          <div class="col">
-            <img src="./sap2.jpg" alt="Image" />
-          </div>
+    <h3 class="center job" style="margin-top: 10%">SAP Concur</h3>
+    <!--Img Grid 2-->
+    <div class="grid-container">
+      <div class="row g-0">
+        <div class="col">
+          <img src="./sap1.jpg" alt="Image" />
+        </div>
+        <div class="col">
+          <img src="./sapLogo.png" alt="Image" />
+        </div>
+        <div class="col">
+          <img src="./sap2.jpg" alt="Image" />
         </div>
       </div>
-      <!--End of Grid 2-->
-      <p class="paragraph">Summary</p>
-    </section>
-    <hr />
-    <section id="contact">
-      <h2 class="center heading">Contact Me</h2>
-      <!--Begining of Form-->
-      <form>
-        <div class="row g-3">
-          <div class="col">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="First name"
-              aria-label="First name"
-            />
-          </div>
-          <div class="col">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Last name"
-              aria-label="Last name"
-            />
-          </div>
-        </div>
-      </form>
-      <!--End of Form-->
-    </section>
-    <footer>
-      <p>Yanitzia R. Camacho-Lopez</p>
-      <!--Symbols will go here LinkedIn, Email?-->
-    </footer>
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-    crossorigin="anonymous"
-  ></script>
+    </div>
+    <!--End of Grid 2-->
+    <p class="paragraph">During the summer of 2019, I completed a high school internship with SAP, where I worked closely with the SAP iXp human resources team. 
+      My role focused on researching and gathering information from over 500 universities and colleges to identify tech-related programs and student organizations 
+      that could benefit from the SAP iXp program. I reached out to these groups to build connections and share opportunities. Throughout the internship, 
+      I participated in events that introduced me to professionals across the tech industry. This experience sparked my passion for technology and inspired me to 
+      pursue a career in the field.</p>
+  </section>
+  <hr />
+  <section id="contact">
+    <h2 class="center heading">Contact Me</h2>
+    <!--Begining of Form-->
+
+
+    <!--End of Form-->
+  </section>
+  <footer>
+    <p>Yanitzia R. Camacho-Lopez</p>
+    <!--Symbols will go here LinkedIn, Email?-->
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
 </html>
